@@ -1,0 +1,88 @@
+{
+    "list": [
+        {
+            "display_order": 1,
+            "name": "Single Class",
+            "description": "Single Class desc",
+            "type": "non_shareable",
+            "total_credit": 1,
+            "tag_name": null,
+            "validity_month": 0,
+            "price": 32.1,
+            "newbie_first_attend": true,
+            "newbie_additional_credit": 0,
+            "newbie_note": "Newbie can attend a class and pay later",
+            "alias": "single-pack"
+        },
+        {
+            "display_order": 2,
+            "name": "20 Class Pack",
+            "description": "20 Class Pack desc",
+            "type": "non_shareable",
+            "total_credit": 10,
+            "tag_name": "Popular",
+            "validity_month": 3,
+            "price": 235.4,
+            "newbie_first_attend": false,
+            "newbie_additional_credit": 1,
+            "newbie_note": "Newbie get an additional Free class",
+            "alias": "pack-20"
+        },
+        {
+            "display_order": 3,
+            "name": "10 Class Pack",
+            "description": "10 Class Pack desc",
+            "type": "non_shareable",
+            "total_credit": 10,
+            "tag_name": "Limited",
+            "validity_month": 3,
+            "price": 235.4,
+            "newbie_first_attend": false,
+            "newbie_additional_credit": 1,
+            "newbie_note": "Newbie get an additional Free class",
+            "alias": "pack-10"
+        },
+        {
+            "display_order": 4,
+            "name": "30 Class Pack",
+            "description": "30 Class Pack desc",
+            "type": "non_shareable",
+            "total_credit": 10,
+            "tag_name": "New",
+            "validity_month": 3,
+            "price": 235.4,
+            "newbie_first_attend": false,
+            "newbie_additional_credit": 1,
+            "newbie_note": "Newbie get an additional Free class",
+            "alias": "pack-30"
+        },
+        {
+            "display_order": 5,
+            "name": "50 Share Class",
+            "description": "50 Share Class desc",
+            "type": "shareable",
+            "total_credit": 50,
+            "tag_name": null,
+            "validity_month": 12,
+            "price": 941.6,
+            "newbie_first_attend": false,
+            "newbie_additional_credit": 0,
+            "newbie_note": null,
+            "alias": "share-pack-50"
+        },
+        {
+            "display_order": 6,
+            "name": "Unlimited Class",
+            "description": "Unlimited Class desc",
+            "type": "unlimited",
+            "total_credit": 0,
+            "tag_name": null,
+            "validity_month": 24,
+            "price": 941.6,
+            "newbie_first_attend": false,
+            "newbie_additional_credit": 0,
+            "newbie_note": null,
+            "alias": "unlimited-pack"
+        }
+    ]
+}

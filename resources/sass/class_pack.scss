@@ -1,0 +1,59 @@
+.class-pack__card {
+    padding: 12px;
+    position: relative;
+
+    .title {
+        color: $primary-color;
+        font-weight: bold;
+    }
+}
+.class-pack__image-container {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 64px;
+    height: 64px;
+
+    .class-pack__image-overlay {
+        width: 64px;
+        height: 64px;
+        border-top: 64px solid transparent;
+        border-left: 64px solid white;
+        box-sizing: border-box;
+        position: absolute;
+    }
+
+    img {
+        width: 64px !important;
+        height: 64px !important;
+    }
+}
+.class-pack__tag {
+    height: 24px;
+    font-size: 12px;
+    line-height: 24px;
+    text-transform: uppercase;
+    border-radius: 0;
+}
+.class-pack__type {
+    padding: 2px;
+    border: 1px solid $primary-color;
+    border-radius: 50%;
+    width: fit-content;
+    height: fit-content;
+
+    span {
+        box-shadow: none;
+        cursor: auto;
+    }
+
+    .clickable {
+        padding: 4px 8px 16px 8px;
+
+        &:hover {
+            border: 1px solid $primary-color;
+        }
+    }
+}
+
+
